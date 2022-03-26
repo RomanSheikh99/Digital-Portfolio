@@ -1,0 +1,66 @@
+.banner{
+    background: linear-gradient(0deg,#33333378,#33333378), url(https://github.com/RomanSheikh99/PortfolioByHTML/blob/main/Home/img/bg.jpg?raw=true);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.my-img img {
+    border-radius: 100%;
+    border: 6px solid #999;
+    box-shadow: 0px 0px 5px 5px #999;
+}
+
+.my-img img:hover{
+    box-shadow: 0px 0px 20px 5px #999;
+    transform: translateY(-10px);
+}
+
+.banner h2 {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.banner h1 {
+    color: #fff;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    font-size: 50px;
+}
+
+.banner p {
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.cv-btn{
+    color: #000;
+    background: #fff;
+    font-size: 20px;
+    font-family: arial;
+    cursor: pointer;
+}
+
+.banner .cv-btn:hover{
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 11px;
+}
+
+.banner .contact-btn{
+    color: #fff;
+    font-size: 20px;
+    font-family: arial;
+    border: 2px solid #fff;
+    margin-left: 20px;
+    padding: 5px 20px;
+}
+
+.banner .contact-btn:hover{
+    background: #fff;
+    color: #000;
+}
